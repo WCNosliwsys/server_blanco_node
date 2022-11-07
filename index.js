@@ -2,7 +2,7 @@ const express = require('express');
 const res = require('express/lib/response');
 const app = express();
 
-app.get('/',(req,res)=>res.send("Hola mundo modificado por wilson por segunda vez")
+app.get('/',(req,res)=>res.send("Mi servidor en blanco en un dropplet que funciona Mediasoup")
 );
 
 app.listen(3004);
